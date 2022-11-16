@@ -1,5 +1,5 @@
 import 'package:meta/meta.dart';
-import '../model/day.dart';
+import 'package:flutter_clean_architecture/domain/model/day.dart';
 
 abstract class DayRepository {
   Future<Day> getDay({
